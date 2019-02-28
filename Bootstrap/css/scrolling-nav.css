@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/*
+
+Fonts - Lobster 2, Lato
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*
+
+Header Animation
+
+*/
+
+@keyframes headerAnim {
+    
+    0% {background: #006080}
+    25% {background: #004d66}
+    50% {background: #00394d}
+    75% {background: #004d66}
+    100% {background: #006080}
+    
+}
+
+header {
+  padding: 156px 0 100px;
+    background: #006080;
+    animation-name: headerAnim;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section {
+  padding: 150px 0;
+
+}
+
+.title, h1 {
+    
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+h2 {
+    
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    
+}
+
+p, li {
+    
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.separator {
+    
+    border-top: 3px solid #006080;
+    border-radius: 100px;
+    width: 50%;
+    
+}
+
