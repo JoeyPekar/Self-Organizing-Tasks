@@ -29,6 +29,22 @@ Header Animation
     
 }
 
+@keyframes separatorAnim {
+    
+     0% {border-top: 3px solid #006080}
+    25% {border-top: 3px solid #004d66}
+    50% {border-top: 3px solid #00394d}
+    75% {border-top: 3px solid #004d66}
+    100% {border-top: 3px solid #006080}
+    
+}
+
+.navbar-dark bag-dark {
+    
+    background: red;
+    
+}
+
 header {
   padding: 156px 0 100px;
     background: #006080;
@@ -53,6 +69,7 @@ h2 {
     
     font-family: 'Lobster Two', cursive;
     font-weight: 700;
+    text-align: center;
     
 }
 
@@ -62,11 +79,27 @@ p, li {
     
 }
 
+p {
+    
+    text-indent: 40px;
+    
+}
+
 .separator {
     
     border-top: 3px solid #006080;
+    animation-name: separatorAnim;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
     border-radius: 100px;
     width: 50%;
     
 }
 
+img {
+    
+    pointer-events: none;
+    
+}
